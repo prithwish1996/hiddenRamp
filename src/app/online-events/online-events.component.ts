@@ -15,18 +15,14 @@ export class OnlineEventsComponent implements OnInit {
 
   	(function($){
   $(function(){
-    $('.parallax').parallax();
+    (<any>$('.parallax')).parallax();
   });
 })(jQuery);
 
 
   }
 
-  (function($){
-  $(function(){
-    $('.parallax').parallax();
-  });
-})(jQuery);
+
 
 
 
