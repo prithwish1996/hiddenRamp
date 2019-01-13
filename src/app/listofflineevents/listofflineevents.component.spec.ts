@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListOfflineEventsComponent } from './list-offline-events.component';
+import { ListofflineeventsComponent } from './listofflineevents.component';
 
-describe('ListOfflineEventsComponent', () => {
-  let component: ListOfflineEventsComponent;
-  let fixture: ComponentFixture<ListOfflineEventsComponent>;
+describe('ListofflineeventsComponent', () => {
+  let component: ListofflineeventsComponent;
+  let fixture: ComponentFixture<ListofflineeventsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ListOfflineEventsComponent ]
+      declarations: [ ListofflineeventsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListOfflineEventsComponent);
+    fixture = TestBed.createComponent(ListofflineeventsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

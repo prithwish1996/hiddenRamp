@@ -10,6 +10,7 @@ import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
 
 import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
+import { ListofflineeventsComponent } from './listofflineevents/listofflineevents.component';
 
 
 // import { MnFullpageDirective, MnFullpageService } from "ng2-fullpage";
@@ -27,6 +28,8 @@ import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-onl
     OfflineEventsComponent,
 
     ListOfOnlineEventsComponent,
+
+    ListofflineeventsComponent,
     
 
   ],

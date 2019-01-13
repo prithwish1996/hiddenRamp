@@ -7,11 +7,14 @@ import { FooterComponent } from './footer/footer.component';
 import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
 import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
+import { ListofflineeventsComponent } from './listofflineevents/listofflineevents.component';
+
 
 const routes: Routes = [
 	
   
-  { path: 'onlineEvents', component: ListOfOnlineEventsComponent}
+  { path: 'onlineEvents', component: ListOfOnlineEventsComponent},
+  { path: 'offlineEvents', component: ListofflineeventsComponent}
   // {path: '404', component: ErrorPageComponent},
   // { path: '**', component: ErrorPageComponent }
   // {
