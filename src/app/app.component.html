@@ -1,7 +1,7 @@
-<ng4-loading-spinner [threshold]="1000" [template]="template" 
+<ng4-loading-spinner [threshold]="5" [template]="template" 
   [loadingText]="'Please wait...'" [zIndex]="999" > </ng4-loading-spinner>
   <app-header ></app-header>
-  <!-- <p *ngIf="showLoading">Loading....</p> -->
+  <p *ngIf="showLoading">Loading....</p>
 
 <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
 <router-outlet></router-outlet>

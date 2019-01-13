@@ -26,14 +26,14 @@ export class AppComponent {
 
   constructor(public spinner: NgxSpinnerService, public spinnerService: Ng4LoadingSpinnerService, public _router: Router){
 
-   // this.showLoading = true;
+    this.showLoading = true;
      this.spinnerService.show();
 
     this._router.events.subscribe((routerEvent: Event)=>{
 
       if(routerEvent instanceof NavigationStart){
 
-        // this.showLoading = true;
+        this.showLoading = true;
         // console.log(this.showLoading);
          this.spinnerService.show();
 
@@ -41,9 +41,9 @@ export class AppComponent {
 
       if(routerEvent instanceof NavigationEnd){
 
-          // this.showLoading = true;
+          this.showLoading = false;
           // console.log(this.showLoading);
-          this.spinnerService.hide();
+          this.spinnerService.show();
 
       }
     })
