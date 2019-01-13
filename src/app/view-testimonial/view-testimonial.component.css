@@ -1,4 +1,4 @@
-.containeru {
+.container{
   border: 2px solid #ccc;
   background-color: #eee;
   border-radius: 5px;
@@ -6,28 +6,28 @@
   margin: 16px 0
 }
 
-.containeru::after {
+.container::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.containeru img {
+.container img {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
 }
 
-.containeru span {
+.container span {
   font-size: 20px;
   margin-right: 15px;
 }
 
 @media (max-width: 500px) {
-  .containeru {
+  .container {
       text-align: center;
   }
-  .containeru img {
+  .container img {
       margin: auto;
       float: none;
       display: block;
