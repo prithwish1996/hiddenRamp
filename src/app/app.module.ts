@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
+import { ListOfflineEventsComponent } from './list-offline-events/list-offline-events.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OfflineEventsComponent } from './offline-events/offline-events.componen
     HeaderComponent,
     FooterComponent,
     OnlineEventsComponent,
-    OfflineEventsComponent
+    OfflineEventsComponent,
+    ListOfflineEventsComponent
   ],
   imports: [
     BrowserModule,
