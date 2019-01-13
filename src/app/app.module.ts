@@ -16,6 +16,12 @@ import { ListofflineeventsComponent } from './listofflineevents/listofflineevent
 import { ParticlesModule } from 'angular-particle';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
+import { UpComingEventsComponent } from './up-coming-events/up-coming-events.component';
+import { ListOfUpcomingEventsComponent } from './list-of-upcoming-events/list-of-upcoming-events.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { ViewTestimonialComponent } from './view-testimonial/view-testimonial.component';
+import { GuestSpeakerComponent } from './guest-speaker/guest-speaker.component';
+import { ViewGuestSpeakersComponent } from './view-guest-speakers/view-guest-speakers.component';
 
 
 
@@ -36,6 +42,18 @@ import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
     ListOfOnlineEventsComponent,
 
     ListofflineeventsComponent,
+
+    UpComingEventsComponent,
+
+    ListOfUpcomingEventsComponent,
+
+    TestimonialComponent,
+
+    ViewTestimonialComponent,
+
+    GuestSpeakerComponent,
+
+    ViewGuestSpeakersComponent,
     
 
   ],

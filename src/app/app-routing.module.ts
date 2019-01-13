@@ -8,13 +8,19 @@ import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
 import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
 import { ListofflineeventsComponent } from './listofflineevents/listofflineevents.component';
-
+import { UpComingEventsComponent } from './up-coming-events/up-coming-events.component';
+import { ListOfUpcomingEventsComponent } from './list-of-upcoming-events/list-of-upcoming-events.component';
+import { ViewTestimonialComponent } from './view-testimonial/view-testimonial.component';
+import { ViewGuestSpeakersComponent } from './view-guest-speakers/view-guest-speakers.component';
 
 const routes: Routes = [
 	
   
   { path: 'onlineEvents', component: ListOfOnlineEventsComponent},
-  { path: 'offlineEvents', component: ListofflineeventsComponent}
+  { path: 'offlineEvents', component: ListofflineeventsComponent},
+  { path: 'upcomingEvents', component: ListOfUpcomingEventsComponent},
+  { path: 'viewTestimonial', component: ViewTestimonialComponent},
+  { path: 'viewGuestSpeakers', component: ViewGuestSpeakersComponent}
   // {path: '404', component: ErrorPageComponent},
   // { path: '**', component: ErrorPageComponent }
   // {
