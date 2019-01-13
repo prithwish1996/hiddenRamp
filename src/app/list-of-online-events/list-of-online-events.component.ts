@@ -12,6 +12,7 @@ export class ListOfOnlineEventsComponent implements OnInit {
   constructor(private app: AppComponent) { }
 
   ngOnInit() {
+  	
   	this.app.isPressed = true;
 
   		(function($){

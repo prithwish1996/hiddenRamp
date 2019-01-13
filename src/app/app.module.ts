@@ -9,6 +9,9 @@ import { FooterComponent } from './footer/footer.component';
 import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
 import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
+import { ParticlesModule } from 'angular-particle';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
 
 
 // import { MnFullpageDirective, MnFullpageService } from "ng2-fullpage";
@@ -29,6 +32,9 @@ import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-onl
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ParticlesModule,
+    NgxSpinnerModule,
+    Ng4LoadingSpinnerModule.forRoot()
     
   ],
   providers: [],
