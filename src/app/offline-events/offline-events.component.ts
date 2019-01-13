@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {AppComponent} from '../app.component';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-offline-events',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OfflineEventsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private app: AppComponent) { }
 
   ngOnInit() {
+
+    
+  	(function($){
+  $(function(){
+    (<any>$('.parallax')).parallax();
+  });
+})(jQuery);
   }
 
 }

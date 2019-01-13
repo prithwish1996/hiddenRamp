@@ -27,8 +27,11 @@
     "core-js": "^2.5.4",
     "express": "^4.16.4",
     "jquery": "^3.3.1",
+    "ng2-fullpage": "^2.1.0",
+    "ngx-fullpage": "^5.0.4",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
+    "rxjs-compat": "^6.3.3",
     "typescript": "~3.1.1",
     "zone.js": "~0.8.26"
   },

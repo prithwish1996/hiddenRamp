@@ -8,7 +8,14 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
-import { ListOfflineEventsComponent } from './list-offline-events/list-offline-events.component';
+
+import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
+
+
+// import { MnFullpageDirective, MnFullpageService } from "ng2-fullpage";
+
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +25,15 @@ import { ListOfflineEventsComponent } from './list-offline-events/list-offline-e
     FooterComponent,
     OnlineEventsComponent,
     OfflineEventsComponent,
-    ListOfflineEventsComponent
+
+    ListOfOnlineEventsComponent,
+    
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

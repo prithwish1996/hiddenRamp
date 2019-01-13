@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
-
+import {AppComponent} from '../app.component';
 
 @Component({
   selector: 'app-online-events',
@@ -9,7 +9,10 @@ import * as $ from 'jquery';
 })
 export class OnlineEventsComponent implements OnInit {
 
-  constructor() { }
+ 
+
+
+  constructor(private app: AppComponent) { }
 
   ngOnInit() {
 
@@ -20,7 +23,18 @@ export class OnlineEventsComponent implements OnInit {
 })(jQuery);
 
 
+
+
   }
+
+  buttonPressed(){
+
+    this.app.isPressed = true;
+    console.log(this.app.isPressed);
+
+  }
+
+
 
 
 
