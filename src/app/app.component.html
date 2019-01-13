@@ -1,6 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
-
+<ng4-loading-spinner [threshold]="1000" [template]="template" 
+  [loadingText]="'Please wait...'" [zIndex]="999"> </ng4-loading-spinner>
 <app-header ></app-header>
+<particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+
 <router-outlet></router-outlet>
 <!-- <div mnFullpage 
             [mnFullpageNavigation]="true" 

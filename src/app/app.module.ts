@@ -10,7 +10,13 @@ import { OnlineEventsComponent } from './online-events/online-events.component';
 import { OfflineEventsComponent } from './offline-events/offline-events.component';
 
 import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
-import { ListofflineeventsComponent } from './listofflineevents/listofflineevents.component';
+
+
+
+import { ParticlesModule } from 'angular-particle';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
+
 
 
 // import { MnFullpageDirective, MnFullpageService } from "ng2-fullpage";
@@ -36,6 +42,9 @@ import { ListofflineeventsComponent } from './listofflineevents/listofflineevent
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ParticlesModule,
+    NgxSpinnerModule,
+    Ng4LoadingSpinnerModule.forRoot()
     
   ],
   providers: [],

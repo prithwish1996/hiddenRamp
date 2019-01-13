@@ -9,7 +9,7 @@ import * as $ from 'jquery';
 })
 export class OfflineEventsComponent implements OnInit {
 
-  constructor(private app: AppComponent) { }
+  constructor(public app: AppComponent) { }
 
   ngOnInit() {
 

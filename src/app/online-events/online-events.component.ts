@@ -12,7 +12,7 @@ export class OnlineEventsComponent implements OnInit {
  
 
 
-  constructor(private app: AppComponent) { }
+  constructor(public app: AppComponent) { }
 
   ngOnInit() {
 
