@@ -27,12 +27,7 @@ export class OnlineEventsComponent implements OnInit {
 
   }
 
-  buttonPressed(){
-
-    this.app.isPressed = true;
-    console.log(this.app.isPressed);
-
-  }
+  
 
 
 
