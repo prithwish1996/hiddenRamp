@@ -11,7 +11,7 @@ import { OfflineEventsComponent } from './offline-events/offline-events.componen
 
 import { ListOfOnlineEventsComponent } from './list-of-online-events/list-of-online-events.component';
 
-
+import { ListofflineeventsComponent } from './listofflineevents/listofflineevents.component';
 
 import { ParticlesModule } from 'angular-particle';
 import { NgxSpinnerModule } from 'ngx-spinner';
