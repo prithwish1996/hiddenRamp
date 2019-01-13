@@ -15,7 +15,8 @@ import { ViewGuestSpeakersComponent } from './view-guest-speakers/view-guest-spe
 
 const routes: Routes = [
 	
-  
+  {path: 'home', component: HomeComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'onlineEvents', component: ListOfOnlineEventsComponent},
   { path: 'offlineEvents', component: ListofflineeventsComponent},
   { path: 'upcomingEvents', component: ListOfUpcomingEventsComponent},
